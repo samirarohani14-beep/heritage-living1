@@ -400,4 +400,6 @@ body {
 
 .place-card:nth-child(4) {
     animation-delay: 0.3s;
+} .search-box {
+    max-width: 100%;
 }
