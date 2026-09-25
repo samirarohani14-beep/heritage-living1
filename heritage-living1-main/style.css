@@ -237,6 +237,7 @@ body {
     background: var(--wine-dark);
     color: #fff;
     transform: translateY(-2px);
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .discover-button i {
@@ -392,6 +393,7 @@ body {
 
 .place-card:nth-child(2) {
     animation-delay: 0.1s;
+    border-radius: 4px;
 }
 
 .place-card:nth-child(3) {
@@ -403,4 +405,3 @@ body {
 } .search-box {
     max-width: 100%;
 }
-border-radius: 4px;
