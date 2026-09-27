@@ -1,0 +1,94 @@
+.heritage-section {
+    background: #f7f3eb;
+    padding: 60px 7%;
+}
+
+/* عنوان */
+.heritage-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heritage-heading span {
+    color: #b28a4b;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.heritage-heading h2 {
+    color: #222;
+    font-size: 36px;
+    margin: 8px 0;
+}
+
+.heritage-heading p {
+    color: #888;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* چهار کارت در یک ردیف */
+.heritage-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+}
+
+
+/* کارت */
+.heritage-card {
+    flex: 1 1 0;
+    width: 25%;
+    min-width: 0;
+    background: #f1eadc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+    transition: 0.4s ease;
+}
+
+
+/* عکس */
+.heritage-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    display: block;
+    transition: 0.5s ease;
+}
+
+
+/* متن */
+.heritage-text {
+    padding: 15px;
+}
+
+.heritage-text span {
+    color: #b28a4b;
+    font-size: 11px;
+}
+
+.heritage-text h3 {
+    color: #222;
+    font-size: 17px;
+    margin: 6px 0;
+}
+
+.heritage-text p {
+    color: #888;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+/* Hover */
+.heritage-card:hover {
+    transform: rotate(360deg);
+}
+
+.heritage-card:hover img {
+    transform: scale(1.06);
+}
